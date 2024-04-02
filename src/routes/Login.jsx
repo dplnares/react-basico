@@ -31,7 +31,7 @@ const Login = () => {
       <div className="bg-login">
         <div className="form-login">
           <div className="form-login__div">
-            <img src="../../public/logo-disney.webp" alt="logo disney" />
+            <img src="./logo-disney.webp" alt="logo disney" />
           </div>
           <form onSubmit={submit}>
             <label id="icon" htmlFor="username">
