@@ -58,7 +58,7 @@ const Musica = () => {
                 <img src={cancion.data.albumOfTrack.coverArt.sources[0].url} />
                 <div className="text">
                   <h3>{cancion.data.name}</h3>
-                  <p><strong>Albúm: </strong>{cancion.data.albumOfTrack.name}</p>
+                  <p><strong>Álbum: </strong>{cancion.data.albumOfTrack.name}</p>
                   <p><strong>Artista: </strong>{cancion.data.artists.items[0].profile.name}</p>
                   <button
                     onClick={() => window.open(cancion.data.uri)}

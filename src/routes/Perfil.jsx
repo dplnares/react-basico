@@ -1,14 +1,15 @@
 import Header from "../components/Header";
 
-const Contacto = () => {
+const Perfil = () => {
   return (
     <>
       <Header />
       <main>
-        <h1>Formulario Contacto</h1>
-      </main> 
+        <h1>Perfil</h1>
+
+      </main>
     </>
   );
 };
 
-export default Contacto;
+export default Perfil;

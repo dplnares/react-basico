@@ -1,4 +1,9 @@
+import { useNavigate } from "react-router-dom";
+
 const MainMenu = () => {
+
+  const navigation = useNavigate();
+
   return (
     <>
       <ul>
@@ -12,7 +17,14 @@ const MainMenu = () => {
           <a href="/musica">Música</a>
         </li>
         <li>
-          <a href="/contacto">Contáctanos</a>
+          <a href="/perfil">Perfil</a>
+        </li>
+        <li>
+          <a
+            onClick={() => {
+            localStorage.removeItem("token")
+            navigation("/login")
+          }}>Cerrar Sesión</a>
         </li>
       </ul>
     </>

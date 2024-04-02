@@ -276,3 +276,78 @@ main h1 {
 .text button img {
   max-width: 30px;
 }
+
+.numero {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  background-color: #50c035;
+  color: var(--secondary-color);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/**
+  * LOGIN
+*/
+
+.bg-login {
+  background: url('https://wallpapers.com/images/hd/1920x1080-disney-jttfb7e6oygvqqb6.jpg') no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-login .form-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  height: 40%;
+  text-align: center;
+}
+
+.form-login__div {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.bg-login .form-login input {
+  width: 80%;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px 0;
+  background-color: var(--login-color);
+  color: var(--secondary-color);
+  border: none;
+}
+
+.bg-login .form-login button {
+  width: 80%;
+  height: 40px;
+  border: solid 1px var(--secondary-color);
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  color: var(--login-color);
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.bg-login .form-login button:hover {
+  background-color: var(--login-color);
+  color: var(--secondary-color);
+  font-weight: 600;
+}

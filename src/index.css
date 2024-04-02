@@ -6,6 +6,7 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -17,5 +18,6 @@ code {
   --primary-color: #546ea7;
   --secondary-color: #ffffff;
   --third-color: #10BC4C;
+  --login-color: #0F1C4F;
 }
 
