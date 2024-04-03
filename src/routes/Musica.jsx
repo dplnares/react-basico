@@ -1,9 +1,11 @@
 import { useState } from "react";
 import Header from "../components/Header";
+//  import { Howl } from 'howler';
 
 const Musica = () => {
   const [cancion, setCancion] = useState("");
   const [canciones, setCanciones] = useState([]);
+  //  const [currentSong, setCurrentSong] = useState(null);
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -35,6 +37,18 @@ const Musica = () => {
     }
   }
 
+  /*const playSong = (url) => {
+    if (currentSong) {
+      currentSong.stop();
+    }
+    const sound = new Howl({
+      src: [url],
+      html5: true
+    });
+    setCurrentSong(sound);
+    sound.play();
+  };*/
+
   return (
     <>
       <Header />
@@ -61,6 +75,7 @@ const Musica = () => {
                   <p><strong>Álbum: </strong>{cancion.data.albumOfTrack.name}</p>
                   <p><strong>Artista: </strong>{cancion.data.artists.items[0].profile.name}</p>
                   <button
+                    //  onClick={() => playSong(cancion.data.uri)}
                     onClick={() => window.open(cancion.data.uri)}
                   ><img src="../../public/icon-spotify.png" alt="icono de spotify" />Escuchar</button>
                 </div>
