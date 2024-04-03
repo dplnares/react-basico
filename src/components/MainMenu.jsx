@@ -17,7 +17,7 @@ const MainMenu = () => {
           <a href="/musica">Música</a>
         </li>
         <li>
-          <a href="/perfil">Perfil</a>
+          <a href="/instagram">Instagram</a>
         </li>
         <li>
           <a

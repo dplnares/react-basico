@@ -351,3 +351,96 @@ main h1 {
   color: var(--secondary-color);
   font-weight: 600;
 }
+
+.buscar-usuario {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.buscar-usuario p {
+  color: var(--instagram-color);
+  font-size: 1.5em;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.buscar-usuario input {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  background: linear-gradient(to right, #833AB4, #C13584, #FCAF45);
+  color: var(--secondary-color);
+  border: none;
+}
+
+.buscar-usuario button {
+  width: 100px;
+  height: 40px;
+  border: solid 1px var(--instagram-color);
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  color: var(--instagram-color);
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.buscar-usuario button:hover {
+  background-color: var(--instagram-color);
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.perfil-usuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+  height: 600px;
+  background: linear-gradient(to right, #833AB4, #C13584, #FCAF45);
+  text-align: center;
+}
+
+.perfil-usuario h2 {
+  color: var(--secondary-color);
+  font-size: 2em;
+  font-weight: 600;
+  position: relative;
+  top: -25px;
+}
+
+.perfil-usuario img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.datos-generales__div {
+  text-align: center;
+}
+
+.datos-generales__div .biografia {
+  color: var(--secondary-color);
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 15px;
+  font-style: italic;
+}
+
+.perfil-usuario p {
+  color: var(--secondary-color);
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.perfil-usuario p strong{
+  font-weight: 800;
+}
